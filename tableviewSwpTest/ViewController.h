@@ -2,7 +2,7 @@
 //  ViewController.h
 //  tableviewSwpTest
 //
-//  Created by webapps on 17/2/14.
+//  Created by webapps on 17/2/15.
 //  Copyright © 2017年 webapps. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

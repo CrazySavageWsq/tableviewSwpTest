@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		F85C149D1E52935000850090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C149C1E52935000850090 /* main.m */; };
 		F85C14A01E52935000850090 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C149F1E52935000850090 /* AppDelegate.m */; };
-		F85C14A31E52935000850090 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C14A21E52935000850090 /* ViewController.m */; };
+		F85C14A31E52935000850090 /* TaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C14A21E52935000850090 /* TaViewController.m */; };
 		F85C14A61E52935000850090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85C14A41E52935000850090 /* Main.storyboard */; };
 		F85C14A81E52935000850090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85C14A71E52935000850090 /* Assets.xcassets */; };
 		F85C14AB1E52935000850090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85C14A91E52935000850090 /* LaunchScreen.storyboard */; };
 		F85C14B61E52935000850090 /* tableviewSwpTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C14B51E52935000850090 /* tableviewSwpTestTests.m */; };
 		F85C14C11E52935000850090 /* tableviewSwpTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C14C01E52935000850090 /* tableviewSwpTestUITests.m */; };
+		F85C14CF1E52B82400850090 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85C14CE1E52B82400850090 /* 1.jpg */; };
+		F8FE98DE1E53DEFF00FFC554 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE98DC1E53DEFF00FFC554 /* TableViewCell.m */; };
+		F8FE98DF1E53DEFF00FFC554 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FE98DD1E53DEFF00FFC554 /* TableViewCell.xib */; };
+		F8FE98E21E53F15A00FFC554 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE98E11E53F15A00FFC554 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,8 @@
 		F85C149C1E52935000850090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F85C149E1E52935000850090 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F85C149F1E52935000850090 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F85C14A11E52935000850090 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F85C14A21E52935000850090 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F85C14A11E52935000850090 /* TaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaViewController.h; sourceTree = "<group>"; };
+		F85C14A21E52935000850090 /* TaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaViewController.m; sourceTree = "<group>"; };
 		F85C14A51E52935000850090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F85C14A71E52935000850090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85C14AA1E52935000850090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		F85C14BC1E52935000850090 /* tableviewSwpTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewSwpTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85C14C01E52935000850090 /* tableviewSwpTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableviewSwpTestUITests.m; sourceTree = "<group>"; };
 		F85C14C21E52935000850090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85C14CE1E52B82400850090 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F8FE98DB1E53DEFF00FFC554 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ../TableViewCell.h; sourceTree = "<group>"; };
+		F8FE98DC1E53DEFF00FFC554 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ../TableViewCell.m; sourceTree = "<group>"; };
+		F8FE98DD1E53DEFF00FFC554 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../TableViewCell.xib; sourceTree = "<group>"; };
+		F8FE98E01E53F15A00FFC554 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8FE98E11E53F15A00FFC554 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,14 @@
 			children = (
 				F85C149E1E52935000850090 /* AppDelegate.h */,
 				F85C149F1E52935000850090 /* AppDelegate.m */,
-				F85C14A11E52935000850090 /* ViewController.h */,
-				F85C14A21E52935000850090 /* ViewController.m */,
+				F8FE98E01E53F15A00FFC554 /* ViewController.h */,
+				F8FE98E11E53F15A00FFC554 /* ViewController.m */,
+				F85C14A11E52935000850090 /* TaViewController.h */,
+				F85C14A21E52935000850090 /* TaViewController.m */,
+				F8FE98DB1E53DEFF00FFC554 /* TableViewCell.h */,
+				F8FE98DC1E53DEFF00FFC554 /* TableViewCell.m */,
+				F8FE98DD1E53DEFF00FFC554 /* TableViewCell.xib */,
+				F85C14CE1E52B82400850090 /* 1.jpg */,
 				F85C14A41E52935000850090 /* Main.storyboard */,
 				F85C14A71E52935000850090 /* Assets.xcassets */,
 				F85C14A91E52935000850090 /* LaunchScreen.storyboard */,
@@ -250,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85C14AB1E52935000850090 /* LaunchScreen.storyboard in Resources */,
+				F8FE98DF1E53DEFF00FFC554 /* TableViewCell.xib in Resources */,
+				F85C14CF1E52B82400850090 /* 1.jpg in Resources */,
 				F85C14A81E52935000850090 /* Assets.xcassets in Resources */,
 				F85C14A61E52935000850090 /* Main.storyboard in Resources */,
 			);
@@ -276,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85C14A31E52935000850090 /* ViewController.m in Sources */,
+				F85C14A31E52935000850090 /* TaViewController.m in Sources */,
+				F8FE98DE1E53DEFF00FFC554 /* TableViewCell.m in Sources */,
 				F85C14A01E52935000850090 /* AppDelegate.m in Sources */,
 				F85C149D1E52935000850090 /* main.m in Sources */,
+				F8FE98E21E53F15A00FFC554 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +536,7 @@
 				F85C14C71E52935000850090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F85C14C81E52935000850090 /* Build configuration list for PBXNativeTarget "tableviewSwpTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +545,7 @@
 				F85C14CA1E52935000850090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F85C14CB1E52935000850090 /* Build configuration list for PBXNativeTarget "tableviewSwpTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +554,7 @@
 				F85C14CD1E52935000850090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
